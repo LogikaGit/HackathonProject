@@ -7,9 +7,12 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+.label {
+  text-align: center;
+}
 .gradient-image {
   width: 100%;
-  height: 200px;
+  height: 450px;
   background-image: 
   linear-gradient(to top, rgb(106, 79, 134), rgba(0, 0, 0, 0)),
   url('https://media.discordapp.net/attachments/1284872446545104978/1369368716701073600/scott-shi-24-1.jpg?ex=681b9b7f&is=681a49ff&hm=e40c116bf54b4d609dd1469796c213a6f4bdcb7f0822629ee16b372acbb1c60a&=&format=webp&width=1565&height=810');
@@ -42,6 +45,12 @@ header {
   color: white;
 }
 main {
+      background: linear-gradient(to bottom, rgb(106, 79, 134), rgba(106, 79, 134, 0) 30%, rgba(106, 79, 134, 0) 70%, rgb(106, 79, 134)),
+                url('https://cdn-hogwartslegacy.warnerbrosgames.com/home/bg-bottom-m.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
     background-color: rgb(106, 79, 134);
     width: 100%;
 }
@@ -54,6 +63,7 @@ footer {
   padding-bottom: 20px;
   text-align: center;
   color: white;
+  font-size: 25px;
 }
 .paddingtext1 {
   padding-top: 15px;
@@ -81,32 +91,97 @@ main img {
 }
 .info-box {
     background-color: #e8cfa5;
+    outline: 4px solid #ccb58e;
+    outline-offset: -7px;
     border-radius: 12px;
     padding: 15px 20px;
-    margin-left: 10px;
-    max-width: 400px;
+    margin-left: 65px;
+    max-width: 1200px;
     color: #602a7a;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .endingbox {
     background-color: #e8cfa5;
+    outline: 4px solid #ccb58e;
+    outline-offset: -7px;
     border-radius: 12px;
     padding: 15px 20px;
     margin: 0 auto;
     text-align: center;
-    max-width: 400px;
+    max-width: 1300px;
     color: #602a7a;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.startstory {
+    background-color: #e8cfa5;
+    outline: 4px solid #ccb58e;
+    outline-offset: -7px;
+    border-radius: 12px;
+    padding: 10px 10px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 900px;
+    color: #602a7a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.story {
+    background-color: #e8cfa5;
+    outline: 4px solid #ccb58e;
+    outline-offset: -7px;
+    border-radius: 10px;
+    padding: 9px 9px;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
+    max-width: 1200px;
+    color: #602a7a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.story0 {
+    background-color: #e8cfa5;
+    outline: 4px solid #ccb58e;
+    outline-offset: -7px;
+    border-radius: 10px;
+    padding: 9px 9px;
+    margin: 0 auto;
+    font-size: 17px;
+    text-align: center;
+    max-width: 1300px;
+    color: #602a7a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.story1 {
+    background-color: #f3d9ad;
+    outline: 4px solid #e0c699;
+    outline-offset: -7px;
+    border-radius: 10px;
+    padding: 9px 9px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1050px;
+    color: #602a7a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.divline0 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .divline {
-  margin-top: 40px;
+  margin-top: 60px;
   margin-bottom: 40px;
 }
 .divline2 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .endline {
   margin-top: 40px;
@@ -119,10 +194,12 @@ background: linear-gradient(360deg, rgba(106, 79, 134, 1) 0%, rgba(59, 42, 87, 1
 .endbox {
     background-color: #c8bfb0;
     border-radius: 12px;
+    outline: 4px solid #ccb58e;
+    outline-offset: -7px;
     padding: 15px 20px;
     margin: 0 auto;
     text-align: center;
-    max-width: 400px;
+    max-width: 1300px;
     color: #734888;
     margin-top: 30px;
 }
